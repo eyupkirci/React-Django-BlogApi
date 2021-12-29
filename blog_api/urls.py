@@ -22,7 +22,7 @@ router.register('posts', ApiPostView)
 
 
 urlpatterns = [
-    path('', home),
+    # path('', home),
 
     
 ]

@@ -30,3 +30,6 @@ class Post(models.Model):  # ok
     def save(self, *args, **kwargs):
         self.slug = slugify(self.title)
         super(Post, self).save(*args, **kwargs)
+    
+
+
